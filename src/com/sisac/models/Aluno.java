@@ -10,6 +10,12 @@ public class Aluno extends Pessoa{
         return id;
     }
 
+    public Aluno(int id, LocalDate dataMatricula, LocalDate dataLimiteMatricula) {
+        this.id = id;
+        this.dataMatricula = dataMatricula;
+        this.dataLimiteMatricula = dataLimiteMatricula;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
