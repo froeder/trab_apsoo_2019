@@ -12,9 +12,11 @@ public class ConnectionFactory {
 
     public Connection getConnection() {
         try {
+            Class.forName("com.mysql.jdbc.Driver");
+
             return DriverManager.getConnection(
-                "jdbc:hsqldb:file:sisac/", "SA", "");
-        } catch(SQLException e) {
+                "jdbc:mysql://localhost:3306/db_sisac_v1", "root", "");
+        } catch(SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
