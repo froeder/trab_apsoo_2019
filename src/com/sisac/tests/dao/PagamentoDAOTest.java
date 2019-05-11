@@ -1,4 +1,4 @@
-package com.sisac.tests.daotests;
+package com.sisac.tests.dao;
 
 
 import com.sisac.dao.PagamentoDAO;

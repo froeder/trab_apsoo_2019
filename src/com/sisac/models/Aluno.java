@@ -1,19 +1,21 @@
 package com.sisac.models;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Aluno extends Pessoa{
 
     private int id;
-
+    private String faixa;
     public Aluno() {
 
     }
 
-    public Aluno(int id, LocalDate dataMatricula, LocalDate dataLimiteMatricula) {
+    public Aluno(int id, LocalDate dataMatricula, LocalDate dataLimiteMatricula, String faixa) {
         this.id = id;
         this.dataMatricula = dataMatricula;
         this.dataLimiteMatricula = dataLimiteMatricula;
+        this.faixa = faixa;
     }
 
     public int getId() {
@@ -41,6 +43,25 @@ public class Aluno extends Pessoa{
 
     public void setDataLimiteMatricula(LocalDate dataLimiteMatricula) {
         this.dataLimiteMatricula = dataLimiteMatricula;
+    }
+
+    public void promoverAluno(String novaFaixa) {
+        this.faixa = novaFaixa;
+    }
+
+    public void enviarConviteExame(LocalDate dataExame) {
+        /* Ver como enviar email em Java */
+    }
+
+    public String printTitulo() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        String dataFormatada = dataMatricula.format(formatter);
+
+        return String.format("" +
+                "Aluno: %s\n" +
+                "Data de Matrícula: %s\n" +
+                "Faixa: %s\n",
+                this.getNome(), dataFormatada, this.faixa);
     }
 
     @Override
