@@ -1,4 +1,4 @@
-package com.sisac.models;
+package br.ufms.facom.sisac.models;
 
 public class Pessoa {
     private String nome;

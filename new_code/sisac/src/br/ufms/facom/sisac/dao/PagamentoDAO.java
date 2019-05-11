@@ -1,6 +1,7 @@
-package com.sisac.dao;
-import com.sisac.ConnectionFactory;
-import com.sisac.models.Pagamento;
+package br.ufms.facom.sisac.dao;
+import br.ufms.facom.sisac.ConnectionFactory;
+import br.ufms.facom.sisac.models.Aluno;
+import br.ufms.facom.sisac.models.Pagamento;
 
 import java.sql.*;
 import java.time.LocalDate;
@@ -18,7 +19,7 @@ public class PagamentoDAO {
         String sql = String.format("INSERT INTO tb_pagamentos (id, valor, data, tipo) VALUES(NULL,?,?,?);");
         try {
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setDouble(1, pagamento.getValor());
+            stmt.setDouble(1, pagamento.getAluno().getValorMensalidade());
             Date data = Date.valueOf(pagamento.getData());
             stmt.setDate(2, data);
             stmt.setString(3, pagamento.getTipo());
@@ -58,7 +59,7 @@ public class PagamentoDAO {
         String sql = String.format("UPDATE tb_pagamentos SET valor=?, data=?, tipo=? " + "WHERE id=%d", pagamento.getId());
         try {
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setDouble(1, pagamento.getValor());
+            stmt.setDouble(1, pagamento.getAluno().getValorMensalidade());
             Date data = Date.valueOf(pagamento.getData());
             stmt.setDate(2, data);
             stmt.setString(3, pagamento.getTipo());
@@ -74,7 +75,7 @@ public class PagamentoDAO {
         }
     }
 
-    public ArrayList<Pagamento> fetchPagamentos() {
+    public ArrayList<Pagamento> fetchPagamentos(Aluno aluno) {
         Connection con = new ConnectionFactory().getConnection();
         String query = "SELECT * FROM tb_pagamentos;";
         ArrayList<Pagamento> tb_pagamentos = new ArrayList<>();
@@ -90,10 +91,9 @@ public class PagamentoDAO {
                 LocalDate dataAux = data.toLocalDate();
                 String tipo = rs.getString("tipo");
 
-                a = new Pagamento();
+                a = new Pagamento(aluno);
 
                 a.setId(id);
-                a.setValor(valor);
                 a.setData(dataAux);
                 a.setTipo(tipo);
 

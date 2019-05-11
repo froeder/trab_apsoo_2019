@@ -1,4 +1,4 @@
-package com.sisac;
+package br.ufms.facom.sisac;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

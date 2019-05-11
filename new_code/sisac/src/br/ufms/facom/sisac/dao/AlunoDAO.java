@@ -1,6 +1,6 @@
-package com.sisac.dao;
-import com.sisac.ConnectionFactory;
-import com.sisac.models.Aluno;
+package br.ufms.facom.sisac.dao;
+import br.ufms.facom.sisac.ConnectionFactory;
+import br.ufms.facom.sisac.models.Aluno;
 
 import java.sql.*;
 import java.time.LocalDate;
