@@ -7,6 +7,7 @@ public class Aluno extends Pessoa{
 
     private int id;
     private String faixa;
+
     public Aluno() {
 
     }

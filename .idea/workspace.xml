@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ab9407b-3b18-41b7-ba75-38a38ee3d31a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sisac/models/AlunoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sisac/models/RelatorioFinanceiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sisac/tests/unity/AlunoPrintTitulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SISAC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SISAC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/META-INF/SISAC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/ConnectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/dao/AlunoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/dao/AlunoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/dao/PagamentoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/dao/PagamentoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Pagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Pagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SISAC/com/sisac/models/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SISAC/com/sisac/tests/daotests/AlunoDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sisac/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sisac/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sisac/models/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sisac/models/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sisac/models/Pagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sisac/models/Pagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sisac/tests/daotests/AlunoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sisac/tests/dao/AlunoDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sisac/tests/daotests/PagamentoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sisac/tests/dao/PagamentoDAOTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,69 +31,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Pagamento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Aluno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documents/Parte2/2. Descrição resumida dos casos de uso selecionado">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sisac/models/RelatorioFinanceiro.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Pessoa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sisac/models/AlunoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="180">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sisac/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -185,19 +146,18 @@
         <option value="$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso" />
         <option value="$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual" />
         <option value="$PROJECT_DIR$/src/com/sisac/models/Pagamento.java" />
-        <option value="$PROJECT_DIR$/src/com/sisac/models/Aluno.java" />
         <option value="$PROJECT_DIR$/src/com/sisac/Main.java" />
         <option value="$PROJECT_DIR$/src/com/sisac/tests/dao/PagamentoDAOTest.java" />
         <option value="$PROJECT_DIR$/src/com/sisac/models/AlunoTest.java" />
         <option value="$PROJECT_DIR$/src/com/sisac/models/RelatorioFinanceiro.java" />
+        <option value="$PROJECT_DIR$/src/com/sisac/models/Aluno.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1961" />
-    <option name="y" value="98" />
-    <option name="width" value="1910" />
-    <option name="height" value="810" />
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,7 +182,7 @@
               <item name="trab_apsoo_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="trab_apsoo_2019" type="462c0819:PsiDirectoryNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Parte1" type="462c0819:PsiDirectoryNode" />
+              <item name="Parte2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trab_apsoo_2019" type="b2602c69:ProjectViewProjectNode" />
@@ -252,7 +213,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -446,7 +406,8 @@
       <workItem from="1554915489624" duration="14357000" />
       <workItem from="1557347146042" duration="2593000" />
       <workItem from="1557505142208" duration="2061000" />
-      <workItem from="1557514089533" duration="7385000" />
+      <workItem from="1557514089533" duration="7468000" />
+      <workItem from="1557592950627" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="create models, dao and database connection">
       <created>1554924759132</created>
@@ -462,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554927942914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add relatorioFinanceiro and unity tests">
+      <created>1557534289033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557534289033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -474,13 +442,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38574000" />
+    <option name="totallyTimeSpent" value="40670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="98" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24621212" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -489,7 +457,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33278146" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33278146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,7 +466,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.49590835" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.49503312" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -554,7 +522,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create models, dao and database connection" />
     <MESSAGE value="finish Aluno CRUD operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish Aluno CRUD operation" />
+    <MESSAGE value="add relatorioFinanceiro and unity tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add relatorioFinanceiro and unity tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/sisac/insertTest.java" />
@@ -592,23 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documents/Parte2/2. Descrição resumida dos casos de uso selecionado">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sisac/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sisac/tests/dao/AlunoDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -633,33 +585,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Pessoa.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/AlunoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Aluno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual">
+    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/RelatorioFinanceiro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents/Parte2/1. Identificação dos Casos de Uso e dos Atores de cada Caso de Uso">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents/Parte2/2. Descrição resumida dos casos de uso selecionado">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documents/Parte2/3. Requisitos funcionais e Modelo Conceitual">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Pagamento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="480">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#632#633#0" expanded="true" />
@@ -670,21 +639,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/RelatorioFinanceiro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/AlunoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sisac/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sisac/models/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
           </folding>
         </state>
       </provider>
