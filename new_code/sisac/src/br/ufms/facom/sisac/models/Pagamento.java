@@ -22,6 +22,14 @@ public class Pagamento {
         this.pago = false;
     }
 
+    public Aluno getAluno() {
+        return aluno;
+    }
+
+    public void setAluno(Aluno aluno) {
+        this.aluno = aluno;
+    }
+
     public boolean isPago() {
         return pago;
     }

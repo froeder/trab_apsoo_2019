@@ -15,7 +15,7 @@ public class ConnectionFactory {
             Class.forName("com.mysql.jdbc.Driver");
 
             return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/db_sisac_v1", "root", "");
+                "jdbc:mysql://localhost:3306/db_sisac_v1", "root", "passwordRoot");
         } catch(SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

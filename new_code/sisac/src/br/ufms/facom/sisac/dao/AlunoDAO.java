@@ -14,20 +14,15 @@ public class AlunoDAO {
 
     public void addAluno(Aluno aluno) {
         Connection con = new ConnectionFactory().getConnection();
-
-        String sql = String.format("INSERT INTO tb_alunos (id, nome, endereco, estado, cidade, telefone, data_matricula, data_limite_matricula) VALUES(NULL,?,?,?,?,?,?,?);");
+        
+        String sql = String.format("INSERT INTO aluno (dataMatricula, dataLimiteMatricula, id_pessoa) VALUES(?,?,?)");
         try {
             PreparedStatement stmt = con.prepareStatement(sql);
-            stmt.setString(1, aluno.getNome());
-            stmt.setString(2, aluno.getEndereco());
-            stmt.setString(3, aluno.getEstado());
-            stmt.setString(4, aluno.getCidade());
-            stmt.setString(5, aluno.getTelefone());
             Date dataMatricula = Date.valueOf(aluno.getDataMatricula());
-            stmt.setDate(6, dataMatricula);
+            stmt.setDate(1, dataMatricula);
             Date dataLimiteMatricula = Date.valueOf(aluno.getDataLimiteMatricula());
-            stmt.setDate(7, dataLimiteMatricula);
-
+            stmt.setDate(2, dataLimiteMatricula);
+            stmt.setInt(3, 2);
             // Executa statement
             stmt.execute();
             stmt.close();
