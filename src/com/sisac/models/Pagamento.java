@@ -7,8 +7,25 @@ public class Pagamento {
     private double valor;
     private LocalDate data;
     private String tipo;
+    private Mensalidade mensalidade;
 
-    public Pagamento(){}
+    public Pagamento(Mensalidade mensalidade){
+        this.mensalidade = mensalidade;
+    }
+
+    public void registrarPagamento(){
+        mensalidade.pagar();
+    }
+
+    @Override
+    public String toString() {
+        return "Pagamento{" +
+                "id=" + id +
+                ", valor=" + valor +
+                ", data=" + data +
+                ", tipo='" + tipo + '\'' +
+                '}';
+    }
 
     public double getValor() {
         return valor;
@@ -40,16 +57,5 @@ public class Pagamento {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-
-    @Override
-    public String toString() {
-        return "Pagamento{" +
-                "id=" + id +
-                ", valor=" + valor +
-                ", data=" + data +
-                ", tipo='" + tipo + '\'' +
-                '}';
     }
 }
